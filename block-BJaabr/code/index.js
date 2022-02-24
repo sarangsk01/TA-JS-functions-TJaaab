@@ -25,10 +25,10 @@ let convertToString = (n) => {
 };
 
 // - Execute the function
-convertToString(21);
+convertToString();
 
 // - Execute the function and store the return value in a variable.
-let returnValue = convertToString(23);
+let returnValue = convertToString();
 
 // - What is the typeof returnValue
 // typeof returnValue is "string"
@@ -42,24 +42,24 @@ Do the following with above problem.
 
 // - Write a Function Declaration
 function addOne(n) {
-  return String(n+1);
+  return n+1;
 }
 // - Write a Function Expression
 let addOne = function (n) {
-  return String(n+1);
+  return n+1;
 };
 // - Write an Arrow Function without curly brackets(if possible)
-let addOne = (n) => string(n+1);
+let addOne = (n) => n+1;
 // - Write an Arrow Function with curly brackets
 let addOne = (n) => {
-  return string(n+1);
-}
+  return n+1;
+};
 // - Execute the function
-addOne =(44);
+addOne()
 // - Execute the function and store the return value in a variable.
-let add = addOne(44);
+let add = addOne();
 // - What is the typeof returnValue
-// typeof add is "string";
+// typeof add is number
 /* 2. Subtract one
 
 Write a function named `substractOne` that accepts a number, substracts one from the given value and return it. (hint: use return keyword)
@@ -88,7 +88,7 @@ substractOne(n);
 // - Execute the function and store the return value in a variable.
 let sub = substractOne(n);
 // - What is the typeof returnValue
-// typeof sub is "string";
+// typeof sub is number
 /* 3. Add two numbers
 
 Write a function named `sum` that accepts two numbers and returns the sum of them.
@@ -115,7 +115,7 @@ sum(34,57);
 // - Execute the function and store the return value in a variable
 let total = sum(34,57);
 // - What is the typeof returnValue
-// typeof total is "string";
+// typeof total is number
 /* 4. Square of the given value
 
 Write a function named `square` that accepts a number and returns the square of the number.
@@ -142,7 +142,7 @@ square(9);
 // - Execute the function and store the return value in a variable
 let sq = square(9);
 // - What is the typeof returnValue
-// typeof sq is "string";
+// typeof sq  is number
 /* 5. Find isGreater
 
 Write a function named isGreater that accepts two numbers`x` and`y` and returns`true` if x is greater than y or return `false`.
@@ -165,8 +165,7 @@ let isGreater =function(x,y){
   } 
 }
 // - Write an Arrow Function without curly brackets(if possible)
-let isGreater =(x,y) =>` if(x>y) true`;
-  `else false`;
+let isGreater =(x,y) => x>y ? true : false;
    
 
 // - Write an Arrow Function with curly brackets
@@ -220,10 +219,8 @@ const odd = function oddOrEven(numC) {
   }
 }
 // - Write an Arrow Function without curly brackets (hint: use ternary operator)
-let oddOrEven = (numC) => if(numC % 2 === 0) { return `Number is even`;}  
- else {
-  return `Number is odd` ;
- }
+let oddOrEven = (numC) => numC % 2 === 0 ? `Number is even` : `Number is odd` ;
+ 
 // - Write an Arrow Function with curly brackets
 let oddOrEven = (numC) => {
   if(numC % 2 === 0){
@@ -233,8 +230,8 @@ let oddOrEven = (numC) => {
     }
   }
 // - Execute the function
-oddOrEven(59);
+oddOrEven();
 // - Execute the function and store the return value in a variable
-let oen =oddOrEven(59);
+let oen =oddOrEven();
 // - What is the typeof returnValue
-// typeof greater is "string"
+// typeof greater  is number
