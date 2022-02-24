@@ -88,7 +88,7 @@
   
   */
   function getFactorial(){
-  let num = +prompt(`Enter a number!`);
+  let num = +prompt(`Enter a number`);
   let final =1;
   for(let i = num; i>= 1; i--){
     final *= i;
