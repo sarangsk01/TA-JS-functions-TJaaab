@@ -63,7 +63,7 @@
   /*
   5. Create a function named `isLeapYear` with the following steps:
   
-    - Prompts a message saying `Enter a year` and store the value into variable named`year`
+    - Prompts a message saying `Enter a year` and store the value into variable named`year`.
     - Alert `[year] is a leap year` otherwise `[year] is not a leap year`
   */
   function isLeapYear() {
