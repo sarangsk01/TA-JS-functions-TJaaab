@@ -9,7 +9,9 @@ minToSec(50) ➞ 3000
 minToSec(13) ➞ 780
 minToSec(2) ➞ 120
 */
-
+minToSec(min,convert){
+  if(min)
+}
 // - Write a Function Decleration for above problem
 function minToSec() {
   // Your code
