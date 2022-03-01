@@ -77,7 +77,7 @@ test(); // output
 
 function sayHello() {
   let username = 'John';
-  return `Hello ${username}`;
+  return "Hello ${username}";
 }
 let test = sayHello();
 
